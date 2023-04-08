@@ -22,5 +22,37 @@
     "start_at": "2023-04-15T21:00:00",
     "end_at": "2023-04-15T22:40:00",
     "event_id": "51bb6848fc6645988b6347d6d926457d"
+  },
+  "ABC299": {
+    "official_title": "東京海上日動プログラミングコンテスト2023（AtCoder Beginner Contest 299）",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/abc299",
+    "start_at": "2023-04-22T21:00:00",
+    "end_at": "2023-04-22T22:40:00",
+    "event_id": "762abbd0424c4656bcd2c61370a033a8"
+  },
+  "ABC300": {
+    "official_title": "ユニークビジョンプログラミングコンテスト2023 春 (AtCoder Beginner Contest 300)",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/abc300",
+    "start_at": "2023-04-29T21:00:00",
+    "end_at": "2023-04-29T22:40:00",
+    "event_id": "45625b3e2dad4f30a16b7f291a8426a0"
+  },
+  "AGC062": {
+    "official_title": "AtCoder Grand Contest 062",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/agc062",
+    "start_at": "2023-04-30T21:00:00",
+    "end_at": "2023-05-01T00:00:00",
+    "event_id": "0ba95eb8ef5c486f86cb6364731b24f7"
+  },
+  "ARC160": {
+    "official_title": "AtCoder Regular Contest 160",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/arc160",
+    "start_at": "2023-05-14T21:00:00",
+    "end_at": "2023-05-14T23:00:00",
+    "event_id": "82c404ae91594b9ea228b1431637a0e5"
   }
 }
