@@ -54,5 +54,13 @@
     "start_at": "2023-05-14T21:00:00",
     "end_at": "2023-05-14T23:00:00",
     "event_id": "de56d5a74513443a83642de0414be947"
+  },
+  "ABC302": {
+    "official_title": "パナソニックグループプログラミングコンテスト2023（AtCoder Beginner Contest 302）",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/abc302",
+    "start_at": "2023-05-13T21:00:00",
+    "end_at": "2023-05-13T22:40:00",
+    "event_id": "ca529ad44d704f62995a4653f9b91004"
   }
 }
