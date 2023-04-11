@@ -14,5 +14,53 @@
     "start_at": "2023-04-09T21:00:00",
     "end_at": "2023-04-09T22:40:00",
     "event_id": "b04521446bfc409f9680ba9e9d753031"
+  },
+  "ABC298": {
+    "official_title": "トヨタ自動車プログラミングコンテスト2023#1(AtCoder Beginner Contest 298)",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/abc298",
+    "start_at": "2023-04-15T21:00:00",
+    "end_at": "2023-04-15T22:40:00",
+    "event_id": "90499185acf04139b8f5b0fda8a7f72b"
+  },
+  "ABC299": {
+    "official_title": "東京海上日動プログラミングコンテスト2023（AtCoder Beginner Contest 299）",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/abc299",
+    "start_at": "2023-04-22T21:00:00",
+    "end_at": "2023-04-22T22:40:00",
+    "event_id": "ba05ad256ed04fc3b4d95036e39f9c59"
+  },
+  "ABC300": {
+    "official_title": "ユニークビジョンプログラミングコンテスト2023 春 (AtCoder Beginner Contest 300)",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/abc300",
+    "start_at": "2023-04-29T21:00:00",
+    "end_at": "2023-04-29T22:40:00",
+    "event_id": "5b10fe9b9e304270a1fbc101eedffcd5"
+  },
+  "AGC062": {
+    "official_title": "AtCoder Grand Contest 062",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/agc062",
+    "start_at": "2023-04-30T21:00:00",
+    "end_at": "2023-05-01T00:00:00",
+    "event_id": "5421677c0fa04cabad9c84ab59f6c4c6"
+  },
+  "ABC302": {
+    "official_title": "パナソニックグループプログラミングコンテスト2023（AtCoder Beginner Contest 302）",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/abc302",
+    "start_at": "2023-05-13T21:00:00",
+    "end_at": "2023-05-13T22:40:00",
+    "event_id": "e0d5fabaee944941a9783f0c4269079c"
+  },
+  "ARC160": {
+    "official_title": "AtCoder Regular Contest 160",
+    "type": "Algorithm",
+    "url": "https://atcoder.jp/contests/arc160",
+    "start_at": "2023-05-14T21:00:00",
+    "end_at": "2023-05-14T23:00:00",
+    "event_id": "003fa2941d294a0495142b8f7323b810"
   }
 }
