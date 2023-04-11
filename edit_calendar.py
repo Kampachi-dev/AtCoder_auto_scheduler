@@ -52,7 +52,7 @@ def create_events(title: str, start_at: str, end_at: str, event_url: str, offici
                 },
                 "attendees": {
                     "data": [
-                        {"id": f"{CALENDAR_ID},8533784680695705", "type": "user"}
+                        {"id": f"{CALENDAR_ID},5772846303807810", "type": "user"}
                     ]
                 }
             }
