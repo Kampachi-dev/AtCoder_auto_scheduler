@@ -41,8 +41,10 @@ def main():
             else:
                 update_events(event_id=contests_local[contest]["event_id"],
                               title=contest,
+                              official_title=contests[contest]["official_title"],
                               start_at=contests[contest]["start_at"],
                               end_at=contests[contest]["end_at"])
+                contests_local[contest]["official_title"] = contests[contest]["official_title"]
                 contests_local[contest]["start_at"] = contests[contest]["start_at"]
                 contests_local[contest]["end_at"] = contests[contest]["end_at"]
 

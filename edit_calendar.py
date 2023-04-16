@@ -65,7 +65,7 @@ def create_events(title: str, start_at: str, end_at: str, event_url: str, offici
     return event_id
 
 
-def update_events(event_id: str, title: str, start_at: str, end_at: str) -> None:
+def update_events(event_id: str, title: str, official_title: str, start_at: str, end_at: str) -> None:
     "カレンダーに登録されている予定を更新する"
 
     # ヘッダーの設定
@@ -87,6 +87,7 @@ def update_events(event_id: str, title: str, start_at: str, end_at: str) -> None
                 "start_timezone": "Asia/Tokyo",
                 "end_at": end_at,
                 "end_timezone": "Asia/Tokyo",
+                "description": official_title
             },
             "relationships": {
                 "label": {
