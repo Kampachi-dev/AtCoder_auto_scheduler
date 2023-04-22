@@ -12,17 +12,16 @@ def main():
 
     for contest in contests:
 
-        # とりあえずアルゴに絞って登録する
-        if contests[contest]["type"] != "Algorithm":
-            continue
-
         if contest not in contests_local:
             # 新規登録
-            event_id = create_events(title=contest,
-                                     start_at=contests[contest]["start_at"],
-                                     end_at=contests[contest]["end_at"],
-                                     event_url=contests[contest]["url"],
-                                     official_title=contests[contest]["official_title"])
+            event_id = ""
+            # とりあえずアルゴに絞って登録する
+            if contests[contest]["type"] == "Algorithm":
+                event_id = create_events(title=contest,
+                                         start_at=contests[contest]["start_at"],
+                                         end_at=contests[contest]["end_at"],
+                                         event_url=contests[contest]["url"],
+                                         official_title=contests[contest]["official_title"])
             contests_local[contest] = {
                 "official_title": contests[contest]["official_title"],
                 "type": contests[contest]["type"],
@@ -33,6 +32,8 @@ def main():
             }
 
         else:
+            if contests[contest]["type"] != "Algorithm":
+                continue
             # 開始時刻と終了時刻のどちらも変更されていなければ、なにもしない
             # 変更があれば更新する
             if contests[contest]["start_at"] == contests_local[contest]["start_at"] \
