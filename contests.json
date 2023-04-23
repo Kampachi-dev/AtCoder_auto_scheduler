@@ -62,5 +62,13 @@
     "start_at": "2023-05-13T21:00:00",
     "end_at": "2023-05-13T22:40:00",
     "event_id": "d43bae669c214b03b1e7748dc1a70aa5"
+  },
+  "AHC020": {
+    "official_title": "ALGO ARTIS プログラミングコンテスト2023（AtCoder Heuristic Contest 020）",
+    "type": "Heuristic",
+    "url": "https://atcoder.jp/contests/ahc020",
+    "start_at": "2024-04-23T15:00:00",
+    "end_at": "2024-04-23T19:00:00",
+    "event_id": ""
   }
 }
