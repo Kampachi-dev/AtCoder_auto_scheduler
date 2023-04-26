@@ -7,16 +7,16 @@ def get_atcoder_schedule():
     "AtCoder のコンテスト一覧ページから今後のコンテストの開催情報を取得する"
 
     url = "https://atcoder.jp/contests"
-    headers = {"Host": "google.com"}
+    headers = {"X-Forwarded-For": "http://127.0.0.1"}
     params = {"lang": "ja"}
 
     response = requests.get(url, params=params, headers=headers)
     print(response.status_code)
-    print(response.headers)
+    # print(response.headers)
     bs = BeautifulSoup(response.text, "html.parser")
-    print(bs)
+    # print(bs)
     contest_table_upcoming = bs.find("div", attrs={"id": "contest-table-upcoming"})
-    print(contest_table_upcoming)
+    # print(contest_table_upcoming)
     if contest_table_upcoming is None:
         raise ValueError("'contest_table_upcoming' is None")
     upcomings = contest_table_upcoming.find("tbody")
