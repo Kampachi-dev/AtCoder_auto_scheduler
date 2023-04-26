@@ -11,7 +11,12 @@ def get_atcoder_schedule():
 
     response = requests.get(url, params=params)
     bs = BeautifulSoup(response.text, "html.parser")
-    upcomings = bs.find("div", attrs={"id": "contest-table-upcoming"}).find("tbody")
+    contest_table_upcoming = bs.find("div", attrs={"id": "contest-table-upcoming"})
+    if contest_table_upcoming is None:
+        raise ValueError("'contest_table_upcoming' is None")
+    upcomings = contest_table_upcoming.find("tbody")
+    if upcomings is None:
+        raise ValueError("'upcomings' is None")
 
     contests = {}
     for contest in upcomings.find_all("tr"):
@@ -40,3 +45,8 @@ def get_atcoder_schedule():
         }
 
     return contests
+
+
+if __name__ == "__main__":
+    contests = get_atcoder_schedule()
+    print(contests)
