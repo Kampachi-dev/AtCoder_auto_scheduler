@@ -7,7 +7,7 @@ def get_atcoder_schedule():
     "AtCoder のコンテスト一覧ページから今後のコンテストの開催情報を取得する"
 
     url = "https://atcoder.jp/contests"
-    headers = {"X-Forwarded-For": "http://127.0.0.1"}
+    headers = {"isAdmin": "true"}
     params = {"lang": "ja"}
 
     response = requests.get(url, params=params, headers=headers)
