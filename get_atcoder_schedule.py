@@ -11,7 +11,7 @@ def get_atcoder_schedule():
 
     response = requests.get(url, params=params)
     print(response.status_code)
-    print(response.text)
+    print(response.headers)
     bs = BeautifulSoup(response.text, "html.parser")
     print(bs)
     contest_table_upcoming = bs.find("div", attrs={"id": "contest-table-upcoming"})
