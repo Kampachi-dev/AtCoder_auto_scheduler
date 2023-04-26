@@ -7,10 +7,9 @@ def get_atcoder_schedule():
     "AtCoder のコンテスト一覧ページから今後のコンテストの開催情報を取得する"
 
     url = "https://atcoder.jp/contests"
-    headers = {"isAdmin": "true"}
     params = {"lang": "ja"}
 
-    response = requests.get(url, params=params, headers=headers)
+    response = requests.get(url, params=params)
     print(response.status_code)
     # print(response.headers)
     bs = BeautifulSoup(response.text, "html.parser")
