@@ -10,8 +10,11 @@ def get_atcoder_schedule():
     params = {"lang": "ja"}
 
     response = requests.get(url, params=params)
+    print(response.status_code)
     bs = BeautifulSoup(response.text, "html.parser")
+    print(bs)
     contest_table_upcoming = bs.find("div", attrs={"id": "contest-table-upcoming"})
+    print(contest_table_upcoming)
     if contest_table_upcoming is None:
         raise ValueError("'contest_table_upcoming' is None")
     upcomings = contest_table_upcoming.find("tbody")
